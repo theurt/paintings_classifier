@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "image_data_set",
+    "description": "This extension will generate a set of data from a keyword",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "deep_learning_icon.jpg",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "http://*/*",
+        "https://*/*",
+        "activeTab"
+    ]
+}
